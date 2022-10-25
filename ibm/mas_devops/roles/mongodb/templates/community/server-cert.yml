@@ -8,6 +8,8 @@ spec:
   - "*.mas-mongo-ce-svc.{{mongodb_namespace}}.svc.cluster.local"
   - "127.0.0.1"
   - "localhost"
+  duration: 8760h
+  renewBefore: 8660h
 
   issuerRef:
     name: mongo-server-cert-issuer

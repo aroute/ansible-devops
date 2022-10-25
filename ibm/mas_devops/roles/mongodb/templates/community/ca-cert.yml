@@ -11,6 +11,8 @@ spec:
   privateKey:
     algorithm: ECDSA
     size: 256
+  duration: 175200h
+  renewBefore: 175000h
   dnsNames:
   - "*.mas-mongo-ce-svc.{{mongodb_namespace}}.svc.cluster.local"
   - "127.0.0.1"
